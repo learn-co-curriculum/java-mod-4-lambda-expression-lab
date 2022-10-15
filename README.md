@@ -26,6 +26,7 @@ NOTE: The `nextInt` variable is defined as `public static` so the Junit test
 can access and test the lambda expression.
 
 Run the program and confirm the output:
+
 ```text
 7
 14
@@ -53,6 +54,7 @@ The lambda expression should test whether the parameter is an even number.
 `public static MyIntPredicate isEven = null ; //replace null with lambda expression`
 
 Run the program and confirm the output:
+
 ```text
 true
 false
@@ -71,6 +73,7 @@ The lambda expression should return the next odd number that follows the paramet
 `public static MyIntOperator nextOdd = null;  //replace null with lambda expression`
 
 Run the program and confirm the output:
+
 ```text
 7
 15
